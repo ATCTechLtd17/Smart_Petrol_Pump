@@ -1,15 +1,25 @@
 import {
-    createBrowserRouter,
-  } from "react-router-dom";
+  createBrowserRouter,
+} from "react-router-dom";
 import App from "../App";
- 
+import AdminDashboardLayout from "../layout/AdminDashboardLayout";
+import SideNavbar from "../components/SideNav/SideNavbar";
+import AdminDashboardPage from "../page/AdminDashboard/AdminDashboardPage";
+
 
 const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <App/>,
-    },
-    
-  ]);
+  {
+    path: "/",
+    element: <AdminDashboardLayout />,
+    children: [
+      {
+        path: 'admin',
+        element: <AdminDashboardPage />
+      },
 
-  export default router;
+    ]
+  },
+
+]);
+
+export default router;
