@@ -4,7 +4,7 @@ const AdminDashboardPage = () => {
     return (
         <section >
             <section className="flex gap-5">
-                <section className=" ">
+                <section className="shadow-md ">
                     <div className="bg-gray-700 rounded-t-md p-5 text-white  ">
                         <h1 className="font-bold text-3xl">Desel</h1>
                         <p>Total Capacity:<span>10000 L</span></p>
@@ -25,7 +25,7 @@ const AdminDashboardPage = () => {
                     </div>
                 </section>
 
-                <section className=" ">
+                <section className="shadow-md ">
                     <div className="bg-[#337357] rounded-t-md p-5 text-white   ">
                         <h1 className="font-bold text-3xl">Petrol</h1>
                         <p>Total Capacity:<span>10000 L</span></p>
@@ -46,7 +46,7 @@ const AdminDashboardPage = () => {
                     </div>
                 </section>
 
-                <section className=" ">
+                <section className=" shadow-md ">
                     <div className="bg-[#0F79B9] rounded-t-md p-5 text-white   ">
                         <h1 className="font-bold text-3xl">Octane</h1>
                         <p>Total Capacity:<span>10000 L</span></p>
@@ -70,7 +70,7 @@ const AdminDashboardPage = () => {
 
             {/* status section */}
             <section className="mt-5 grid grid-cols-2 gap-5 w-full">
-                <div className="flex gap-5 justify-between items-center bg-white  text-black p-5 rounded-md ">
+                <div className="flex gap-5 justify-between items-center bg-base-200  text-black p-5 rounded-md shadow-md ">
                     <img className="w-14" src="/DashboardIcons/Rectangle 41.png" alt="" />
                     <div>
                         <p>Fuel Status</p>
@@ -81,7 +81,7 @@ const AdminDashboardPage = () => {
                     </div>
                 </div>
 
-                <div className="flex gap-5 items-center justify-between bg-white  text-black p-5 rounded-md ">
+                <div className="flex gap-5 items-center justify-between bg-base-200  text-black p-5 rounded-md shadow-md ">
                     <img className="w-14" src="/DashboardIcons/Rectangle 43.png" alt="" />
                     <div>
                         <p>Reserve Fuel Status</p>
