@@ -1,6 +1,7 @@
 
 import { Outlet } from 'react-router-dom';
 import NavbarDefault from '../components/Navbar/NavbarDefault';
+import SideNavbar from '../components/SideNav/SideNavbar';
 
 
 const AdminDashboardLayout = () => {
@@ -21,22 +22,7 @@ const AdminDashboardLayout = () => {
                     <Outlet />
                 </div>
                 <div className="drawer-side">
-                    {/* <div className='h-16'>
-                        <h2>Smart petrol pump</h2>
-                    </div> */}
-                    <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label>
-                    <ul className="menu p-4 w-fit md:w-80 min-h-full bg-base-200 text-base-content">
-                        {/* Sidebar content here */}
-                        <li><a>Sidebar Item </a></li>
-                        <li><a>Sidebar Item </a></li>
-                        <li><a>Sidebar Item </a></li>
-                        <li><a>Sidebar Item </a></li>
-                        <li><a>Sidebar Item </a></li>
-                        <li><a>Sidebar Item </a></li>
-                        <li><a>Sidebar Item </a></li>
-                        <li><a>Sidebar Item </a></li>
-                    </ul>
-
+                    <SideNavbar/>
                 </div>
             </div>
         </section>
