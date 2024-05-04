@@ -7,6 +7,7 @@ const AddNewBranches = () => {
         <BranchesNav />
       </section>
 
+
     </div>
   );
 };
