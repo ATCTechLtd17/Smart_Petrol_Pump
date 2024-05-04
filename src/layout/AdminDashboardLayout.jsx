@@ -22,7 +22,7 @@ const AdminDashboardLayout = () => {
                     <Outlet />
                 </div>
                 <div className="drawer-side">
-                    <SideNavbar/>
+                    <SideNavbar />
                 </div>
             </div>
         </section>
