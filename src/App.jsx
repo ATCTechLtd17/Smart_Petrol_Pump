@@ -1,5 +1,6 @@
 
 import './App.css'
+import { NumberInput } from './components/Fields/InputFields'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
 
       <button className='btn btn-outline'>helloooooo</button>
+    
     </>
   )
 }

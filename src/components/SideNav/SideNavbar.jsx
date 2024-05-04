@@ -9,28 +9,28 @@ const SideNavbar = () => {
                 {/* Sidebar content here */}
 
                 <li>
-                    <Link>
+                    <Link to={'/'}>
                         <img className="w-6 h-6" src="/public/Side Navbar Icon/Dashboard black.png" alt="Dashboard icon" />
                         Dashboard
                     </Link>
                 </li>
 
                 <li>
-                    <Link>
+                    <Link to={'add_new_branch'}>
                         <img className="w-6 h-6" src="/public/Side Navbar Icon/Branch black.png" alt="branch icon" />
                         Branches
                     </Link>
                 </li>
 
                 <li>
-                    <Link>
+                    <Link to={'daily_incoming_fuel'}>
                         <img className="w-6 h-6" src="/public/Side Navbar Icon/Reserve Fuel black.png" alt="Dashboard icon" />
                         Reserve Fuel
                     </Link>
                 </li>
 
                 <li>
-                    <Link>
+                    <Link to={'active_employee'}>
                         <img className="w-6 h-6" src="/public/Side Navbar Icon/Employee black.png" alt="Dashboard icon" />
                         Employee</Link>
                 </li>
