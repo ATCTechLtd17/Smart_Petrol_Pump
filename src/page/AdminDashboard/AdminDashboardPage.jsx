@@ -6,20 +6,20 @@ const AdminDashboardPage = () => {
             <section className="flex gap-5">
                 <section className="shadow-md ">
                     <div className="bg-gray-700 rounded-t-md p-5 text-white  ">
-                        <h1 className="font-bold text-3xl">Desel</h1>
+                        <h1 className="font-bold text-3xl">Deisel</h1>
                         <p>Total Capacity:<span>10000 L</span></p>
                     </div>
                     <div className=" bg-white rounded-b-md p-5 text-black">
                         <div>
-                            <p>Desel 1</p>
+                            <p>Deisel 1</p>
                             <progress className="progress progress-primary w-56" value="70" max="100"></progress>
                         </div>
                         <div>
-                            <p>Desel 2</p>
+                            <p>Deisel 2</p>
                             <progress className="progress progress-primary w-56" value="50" max="100"></progress>
                         </div>
                         <div>
-                            <p>Desel 3</p>
+                            <p>Deisel 3</p>
                             <progress className="progress progress-primary w-56" value="30" max="100"></progress>
                         </div>
                     </div>
