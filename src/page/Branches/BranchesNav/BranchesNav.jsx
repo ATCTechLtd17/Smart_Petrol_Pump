@@ -3,9 +3,9 @@ const BranchesNav = () => {
   return (
     <div>
 
-      <nav className="bg-teal-700 text-white">
-        <div className="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
-          <div className="relative flex items-center justify-between h-16">
+      <nav className="bg-teal-500 text-white ">
+        <div className="w-fit mx-auto px-2 sm:px-6 lg:px-8">
+          <div className="relative w-full flex items-center justify-between h-16">
             <div className="hidden sm:block sm:ml-6">
               <div className="flex space-x-4">
 

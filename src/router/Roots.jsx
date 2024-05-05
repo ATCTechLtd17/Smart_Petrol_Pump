@@ -18,7 +18,7 @@ import TotalEmployee from "../page/Employee's/TotalEmployee";
 const router = createBrowserRouter([
   {
     path: "/",
-    element: <AdminDashboardLayout />,
+    element: <App/>,
     children: [
 
       //Admin Dashboard route:

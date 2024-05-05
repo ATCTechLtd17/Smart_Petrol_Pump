@@ -5,7 +5,7 @@ const SideNavbar = () => {
 
         <div className="min-h-screen">
             {/* <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label> */}
-            <ul className="menu p-4 w-fit md:w-80 min-h-full bg-base-200 text-base-content">
+            <ul className="menu p-4  md:w-80 min-h-screen bg-base-200 text-base-content">
                 {/* Sidebar content here */}
 
                 <li>
