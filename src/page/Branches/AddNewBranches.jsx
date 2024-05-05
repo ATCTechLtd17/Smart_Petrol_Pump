@@ -1,6 +1,6 @@
 import { GreenButton } from "../../components/Component/Button";
 import PageHead from "../../components/Component/PageHead";
-import { NumberInput, TextInput } from "../../components/Fields/InputFields";
+import { Label, NumberInput, TextInput } from "../../components/Fields/InputFields";
 import BranchesNav from "./BranchesNav/BranchesNav";
 
 const AddNewBranches = () => {
@@ -23,10 +23,20 @@ const AddNewBranches = () => {
       <section className="m-4">
         <BranchesNav />
       </section>
+
+
       <div className="m-4">
-        <TextInput onChange={handleChange} name={"nashit"} placeHolder={"As"} />
-        <NumberInput />
-        
+        <div className=" ">
+          <Label name={"branchName"}/>
+          <TextInput onChange={handleChange} name={"branchName"} placeHolder={"enter your name"} />
+
+        </div>
+        <div>
+          <NumberInput />
+
+        </div>
+        <TextInput />
+
         <form action="">
           <GreenButton name="Submit" onClick={handleSubmit} />
           <NumberInput />
