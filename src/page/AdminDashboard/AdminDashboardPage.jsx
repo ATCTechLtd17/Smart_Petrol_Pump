@@ -11,15 +11,15 @@ const AdminDashboardPage = () => {
                     </div>
                     <div className=" bg-white rounded-b-md p-5 text-black">
                         <div>
-                            <p>Deisel 1</p>
+                            <p>Diesel 1</p>
                             <progress className="progress progress-primary w-56" value="70" max="100"></progress>
                         </div>
                         <div>
-                            <p>Deisel 2</p>
+                            <p>Diesel 2</p>
                             <progress className="progress progress-primary w-56" value="50" max="100"></progress>
                         </div>
                         <div>
-                            <p>Deisel 3</p>
+                            <p>Diesel 3</p>
                             <progress className="progress progress-primary w-56" value="30" max="100"></progress>
                         </div>
                     </div>
