@@ -3,10 +3,10 @@
 const AdminDashboardPage = () => {
     return (
         <section >
-            <section className="flex gap-5">
+            <section className="flex gap-5 justify-center items-center p-10">
                 <section className="shadow-md ">
                     <div className="bg-gray-700 rounded-t-md p-5 text-white  ">
-                        <h1 className="font-bold text-3xl">Deisel</h1>
+                        <h1 className="font-bold text-3xl">Diesel</h1>
                         <p>Total Capacity:<span>10000 L</span></p>
                     </div>
                     <div className=" bg-white rounded-b-md p-5 text-black">
@@ -69,7 +69,7 @@ const AdminDashboardPage = () => {
             </section>
 
             {/* status section */}
-            <section className="mt-5 grid grid-cols-2 gap-5 w-full">
+            <section className="mt-5 grid grid-cols-2 gap-5 w-full p-10">
                 <div className="flex gap-5 justify-between items-center bg-base-200  text-black p-5 rounded-md shadow-md ">
                     <img className="w-14" src="/DashboardIcons/Rectangle 41.png" alt="" />
                     <div>

@@ -6,7 +6,7 @@ import SideNavbar from '../components/SideNav/SideNavbar';
 
 const AdminDashboardLayout = () => {
     return (
-        <section className=' '>
+        <section className=''>
             <div>
                 <NavbarDefault />
             </div>
