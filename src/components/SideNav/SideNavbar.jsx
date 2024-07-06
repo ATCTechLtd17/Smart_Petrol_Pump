@@ -1,11 +1,13 @@
 import { Link } from "react-router-dom";
+// import car from './../../assets/aesthetic-4500x3000-1405.png'
 
 const SideNavbar = () => {
     return (
+        // style={{ backgroundImage: `url(${car})`, backgroundRepeat: 'no-repeat', backgroundSize: '1200px', }}
+        <div className="min-h-screen" >
 
-        <div className="min-h-screen">
             {/* <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label> */}
-            <ul className="menu p-4  md:w-80 min-h-screen bg-base-200 text-base-content">
+            <ul className="menu p-4  md:w-80 min-h-screen bg-base-200 text-base-content  gap-1">
                 {/* Sidebar content here */}
 
                 <li>
@@ -29,11 +31,11 @@ const SideNavbar = () => {
                     </Link>
                 </li>
 
-                <li>
+                {/* <li>
                     <Link to={'active_employee'}>
                         <img className="w-6 h-6" src="/Side Navbar Icon/Employee black.png" alt="Dashboard icon" />
                         Employee</Link>
-                </li>
+                </li> */}
 
                 <li>
                     <Link>
@@ -42,33 +44,33 @@ const SideNavbar = () => {
                     </Link>
                 </li>
 
-                <li>
+                {/* <li>
                     <Link>
                         <img className="w-6 h-6" src="/Side Navbar Icon/user maintanance black.png" alt="Dashboard icon" />
                         User Maintanance
                     </Link>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                     <Link>
                         <img className="w-6 h-6" src="/Side Navbar Icon/hrm black.png" alt="Dashboard icon" />
                         HRM
                     </Link>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                     <Link>
                         <img className="w-6 h-6" src="/Side Navbar Icon/asset section black.png" alt="Dashboard icon" />
                         Asset Section
                     </Link>
-                </li>
+                </li> */}
 
-                <li>
+                {/* <li>
                     <Link>
                         <img className="w-6 h-6" src="/Side Navbar Icon/liabilities black.png" alt="Dashboard icon" />
                         Liabilities
                     </Link>
-                </li>
+                </li> */}
 
                 <li>
                     <Link>

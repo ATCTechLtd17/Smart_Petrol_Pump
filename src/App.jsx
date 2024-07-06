@@ -4,6 +4,7 @@ import { Outlet } from 'react-router-dom'
 import { NumberInput } from './components/Fields/InputFields'
 import SideNavbar from './components/SideNav/SideNavbar'
 import PageHead from './components/Component/PageHead'
+import NavbarDefault from './components/Navbar/NavbarDefault'
 
 function App() {
 
@@ -20,7 +21,7 @@ function App() {
 
         <div className='w-full'>
           <PageHead />
-
+          <NavbarDefault />
           <Outlet />
 
         </div>

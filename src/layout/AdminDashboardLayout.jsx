@@ -12,7 +12,7 @@ const AdminDashboardLayout = () => {
             </div>
             <div className="drawer lg:drawer-open">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-content flex flex-col  bg-gray-200 mx-auto mt-5">
+                <div className="drawer-content flex flex-col    min-w-full mx-auto ">
                     {/* Page content here */}
 
                     {/* <label htmlFor="my-drawer-2" className="btn btn-primary drawer-button lg:hidden">...</label> */}
@@ -21,7 +21,7 @@ const AdminDashboardLayout = () => {
                     </label>
                     <Outlet />
                 </div>
-                <div className="drawer-side min-h-screen">
+                <div className="drawer-side min-h-screen ">
                     {/* <label htmlFor="my-drawer-2" aria-label="close sidebar" className="drawer-overlay"></label> */}
 
                     <SideNavbar />
